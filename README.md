@@ -6,7 +6,9 @@
 # AireMAD
 
 ### Importante
+
 **VERSION 0.0.1 - CAMBIOS PRÓXIMAMENTE**
+
 **VERSIÓN DISTINTA A PRODUCCIÓN. EN PROCESO DE CERRAR LA RELEASE v.1.0.0**
 
 [AireMAD](http://airemad.com/) es un portal que nos muestra la información de contaminación en el aire, contaminación acústica, niveles de polen, niveles de gripe y el tiempo. Es una aplicación de código abierto desarrollada por [los profesores de Fictizia](http://www.fictizia.com/).
