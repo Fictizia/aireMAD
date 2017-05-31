@@ -1,0 +1,60 @@
+{
+  "name": "airemad",
+  "version": "0.0.1",
+  "description": "AireMAD es una aplicación para poder ver los datos de la calidad del Aire de Madrid en tiempo real.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fictizia/aireMAD.git"
+  },
+  "keywords": [
+    "air-quality",
+    "air",
+    "madrid",
+    "enviromental"
+  ],
+  "author": {
+    "name": "Fictizia",
+    "url": "https://github.com/Fictizia"
+  },
+  "contributors": [
+    {
+      "name": "Ulises Gascón",
+      "url": "https://github.com/ulisesGascon"
+    },
+    {
+      "name": "Ángel Corral",
+      "url": "https://github.com/ancoar"
+    }
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Fictizia/aireMAD/issues"
+  },
+  "homepage": "https://github.com/Fictizia/aireMAD#readme",
+  "dependencies": {
+    "cheerio": "0.22.0",
+    "goblindb": "0.0.8",
+    "lodash": "4.17.4",
+    "pillars": "0.6.2",
+    "scheduled": "0.5.0"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-clean": "0.3.2",
+    "gulp-clean-css": "3.0.3",
+    "gulp-debug": "3.1.0",
+    "gulp-eslint": "3.0.1",
+    "gulp-htmlmin": "3.0.0",
+    "gulp-imagemin": "3.1.1",
+    "gulp-sequence": "0.4.6",
+    "gulp-uglify": "2.1.0",
+    "pump": "1.0.2"
+  },
+  "engines": {
+    "node": ">=6.9.5"
+  }
+}
