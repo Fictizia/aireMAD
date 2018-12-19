@@ -80,7 +80,7 @@ function getUrlData (url, callback) {
 
 function getReportDetails (resumeDataSite, callback){
     console.log("-- REPORT:", resumeDataSite);
-    var resumeUrl = "http://vgripe.isciii.es/gripe/PresentarHomeBoletin.do?boletin=1&bol="+resumeDataSite.url
+    var resumeUrl = "http://vgripe.isciii.es/PresentarHomeBoletin.do?boletin=1&bol="+resumeDataSite.url
     getUrlData(resumeUrl, function(dataReport){
         
         var $ = cheerio.load(dataReport);
@@ -136,7 +136,7 @@ function getReportDetails (resumeDataSite, callback){
 module.exports = function(goblinDB){
     console.log("Flu_data.js - Process started...");
 
-    getUrlData("http://vgripe.isciii.es/gripe/PresentarHomeInformes.do", function(dataSite){
+    getUrlData("http://vgripe.isciii.es/PresentarHomeInformes.do", function(dataSite){
         
         
         var keyData = {
