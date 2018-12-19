@@ -7,12 +7,12 @@ var project = require('pillars'),
     pollutionData = require('./scheduled_tasks/pollution_data'),
     stationsData = require('./scheduled_tasks/station_data'),
     weatherData = require('./scheduled_tasks/weather_data'),
-    apiManagement = require('./routes/api');
+    apiManagement = require('./routes/api'),
+    port = require("./config").port;
 
 
 /* --- Goblin Setup --- */
 var goblinDB = GDB();
-
 
 /* --- Manual Recovery --- */
 if(process.argv[2] && process.argv[2] === "-clean"){
@@ -23,7 +23,7 @@ if(process.argv[2] && process.argv[2] === "-clean"){
 
 // Starting the project
 project.services.get('http').configure({
-    port: process.env.PORT || 3000
+    port
 }).start();
 
 
