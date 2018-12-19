@@ -1,0 +1,103 @@
+/* Fuente UBUNTU para branding */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #fafafa; */
+    background-color: #EEEEEE;
+    /* background-color: white; */
+    font-family: Roboto;
+}
+
+/* Disables COPY text */
+/*.no-copy {
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    -o-user-select: none;
+    unselectable = on; 
+    onselectstart = return false; 
+    onmousedown = return false;
+}*/
+
+/* FAB achievement creation */
+.fab-bottom {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 5;
+}
+
+/* FAB background */
+.mdl-button--fab.mdl-button--colored {
+    background: #ff9800;
+}
+
+#your-profile {
+    background-color: #fff;
+    display: none; /* CAMBIAR NONE POR BLOCK PARA QUE SE VEA */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    z-index: 999;
+}  
+
+/* */
+.list-button {
+    background: #3f51b5;
+    color: #fff;
+    float: right;
+    margin: 9px 16px 0 0;
+}
+
+/* divs barrita */
+.caca {
+    /* display: inline-block; */
+    /* border-style: solid; */
+    border-right: 3px solid lightgrey;
+    width: 10%;
+    float: left;
+    background-color: red;
+    margin: 0;
+    height: 100%;
+    /* margin-right: 3px; */
+}
+
+.mdl-button--raised.mdl-button--colored {
+    background: #FF5722;
+    color: #fff;
+}
+
+.evt-head-more .mdl-button--icon {
+    margin-top: 8px;
+}
+
+
+/* DIALOG */
+.overlay {
+    background: rgba(0,0,0,.25);
+    bottom: 0;
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+
+/* UTIL */
+.over-view {
+    background: #eeeeee;
+    /*display: none;*/
+    left: 0;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 5;
+}

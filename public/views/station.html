@@ -1,0 +1,44 @@
+<div class="aside-panel" ng-controller="stationCtrl as station">
+	<h4>{{station.preStation.nombre_estacion || 'cargando...'}}</h4>
+
+	<p>
+		Dirección: {{station.preStation.direccion || 'cargando...'}}<br>
+		Altitud: {{station.preStation.altitud || 'cargando...'}}
+	</p>
+
+	<div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active" ng-hide="station.station.gotten"></div>
+
+	<div ng-show="station.station.gotten">
+
+		<h4>{{station.station.data.nombre_estacion || station.preStation.nombre_estacion || 'cargando...'}}</h4>
+
+		<p>
+			Temperatura: {{station.station.data.weather.main.temp + 'º ' + station.station.data.weather.weather[0].description || 'no disponible'}}<br>
+
+			<hr>
+				Polen Aliso: {{ station.station.data.pollen.Aliso.valor + ' (' + station.station.data.pollen.Aliso.resumen + ')' || 'no disponible'}}<br>
+				Polen Cupresáceas/Taxáceas: {{ station.station.data.pollen["Cupresáceas/Taxáceas"].valor + '(' + station.station.data.pollen["Cupresáceas/Taxáceas"].resumen + ')' || 'no disponible'}}<br>
+				Polen Fresno: {{ station.station.data.pollen.Fresno.valor + ' (' + station.station.data.pollen.Fresno.resumen + ')' || 'no disponible'}}<br>
+				Polen Gramíneas: {{ station.station.data.pollen["Gramíneas"].valor + ' (' + station.station.data.pollen["Gramíneas"].resumen + ')' || 'no disponible'}}<br>
+				Polen Olivo: {{ station.station.data.pollen.Olivo.valor + ' (' + station.station.data.pollen.Olivo.resumen + ')' || 'no disponible'}}<br>
+				Polen Plantago: {{ station.station.data.pollen.Plantago.valor + ' (' + station.station.data.pollen.Plantago.resumen + ')' || 'no disponible'}}<br>
+				Polen Plátano de paseo: {{ station.station.data.pollen["Plátano de paseo"].valor + ' (' + station.station.data.pollen["Plátano de paseo"].resumen + ')' || 'no disponible'}}<br>				
+
+			<hr>
+			
+			NO: {{station.station.data.pollution.NO.values[0].valor || 'no disponible'}}<br>
+			CO: {{station.station.data.pollution.CO.values[0].valor || 'no disponible'}}<br>
+			NO2: {{station.station.data.pollution.NO2.values[0].valor || 'no disponible'}}<br>
+			NOX: {{station.station.data.pollution.NOX.values[0].valor || 'no disponible'}}<br>
+			SO2: {{station.station.data.pollution.S02.values[0].valor || 'no disponible'}}
+			
+			<hr>
+
+			Ruido: {{station.station.data.acustic.LAEQ || 'no disponible'}}<br>
+		</p>
+
+	</div>
+
+</div>
+
+<div class="close-aside-panel" ui-sref="home">Close</div>

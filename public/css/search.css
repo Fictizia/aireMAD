@@ -1,0 +1,93 @@
+#search {
+    /* background-color: #fff; */
+}
+
+.header-search {
+    height: 56px;
+    background-color: white;
+    color: #767676;
+    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,.1),0 3px 1px -2px rgba(0,0,0,.1),0 1px 5px 0 rgba(0,0,0,.1); */
+}
+
+.mdl-layout__drawer.is-visible {
+    /* width: calc(100% - 48px); */
+    width: 280px; 
+}
+
+.mdl-textfield__label:after {
+    background-color: none;
+    bottom: 20px;
+    content: '';
+    height: 0;
+    left: 45%;
+    position: absolute;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    visibility: hidden;
+    width: 10px;
+}
+
+.search-suggestions {
+    margin-top: 16px;
+    display: list-item;
+}
+
+#search .mdl-layout__header {
+	color: grey;
+	background-color: white;
+}
+
+#search .mdl-layout__tab-bar {
+	height: 48px;
+	background-color: white;
+}
+
+#search .mdl-layout__tab {
+    color: rgba(255, 152, 0, .6);
+}
+
+#search .mdl-layout__drawer-button .material-icons {
+	color: grey;
+}
+
+/* Changes the selected tab's text color */
+#search .mdl-layout.is-upgraded .mdl-layout__tab.is-active {
+    color: #ff9800;
+}
+
+/* Changes the selected tab's selector color */
+#search .mdl-layout.is-upgraded .mdl-layout__tab.is-active:after {
+    background: #ff9800;
+}
+
+/* Changes the color of the follow icon */
+#fixed-tab-2 .mdl-list__item-secondary-action {
+	color: #ff9800;
+}
+
+.mdl-layout__header-row input, 
+.mdl-layout__header-row input:focus, 
+.mdl-layout__header-row input:active {
+    border: none;
+    box-shadow: none;
+    outline-color: transparent;
+	width: 80%;
+}
+
+#fixed-tab-2 .mdl-list__item-avatar, .mdl-list__item-avatar.material-icons {
+    /* border-radius: 50%; */
+    background-color: #757575;
+    font-size: 40px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.mdl-list__item-avatar img {
+	width: 40px;
+	height: 40px;
+    border-radius: 3px;
+}
+
+#search .mdl-layout__header-row {
+	margin-right: 8px;
+}
