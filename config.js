@@ -1,4 +1,4 @@
 module.exports = {
-    owm: "",
+    owm: process.env.OWM || "",
     port: process.env.PORT || 3000
 }
