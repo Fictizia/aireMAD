@@ -39,7 +39,7 @@
     "cheerio": "0.22.0",
     "goblindb": "0.0.8",
     "lodash": "4.17.4",
-    "pillars": "0.6.2",
+    "pillars": "0.7.1",
     "scheduled": "0.5.0"
   },
   "devDependencies": {
