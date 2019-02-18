@@ -2,7 +2,7 @@ var project = require('pillars'),
     Scheduled = require("scheduled"),
     GDB = require("goblindb"),
     acusticData = require('./scheduled_tasks/acustic_data'),
-    fluData = require('./scheduled_tasks/flu_data'),
+    //fluData = require('./scheduled_tasks/flu_data'),
     pollenData = require('./scheduled_tasks/pollen_data'),
     pollutionData = require('./scheduled_tasks/pollution_data'),
     stationsData = require('./scheduled_tasks/station_data'),
@@ -108,6 +108,7 @@ var everyDayTasks = new Scheduled({
 
 
 // Every Week
+/*
 var everyWeekTasks = new Scheduled({
     id: "everyWeekTasks",
     pattern: "0 8 * * 1 *", // Monday 08:00
@@ -115,11 +116,11 @@ var everyWeekTasks = new Scheduled({
         fluData(goblinDB);
     }
 }).start();
-
+*/
 
 /* --- INITIAL Tasks --- */
 stationsData(goblinDB);
 everyHourTasks.launch();
 everyTwoHoursTasks.launch();
 everyDayTasks.launch();
-everyWeekTasks.launch();
+//everyWeekTasks.launch();
