@@ -1,0 +1,50 @@
+{
+  "name": "airemad",
+  "version": "2.0.0",
+  "description": "AireMad",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest  --verbose ./**/*.test.js",
+    "test:coverage": "jest --verbose ./**/*.test.js --coverage",
+    "test:watch": "jest --verbose ./**/*.test.js --watchAll",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fictizia/aireMAD.git"
+  },
+  "keywords": [
+    "air",
+    "quality",
+    "air"
+  ],
+
+  "author": "Ulises Gascon",
+  "license": "AGPL-3.0",
+  "standard": {
+    "env": [
+      "jest"
+    ],
+    "ignore": [
+      "/docs/**/*.js"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run test"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/Fictizia/aireMAD/issues"
+  },
+  "homepage": "https://github.com/Fictizia/aireMAD#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4"
+  }
+}
