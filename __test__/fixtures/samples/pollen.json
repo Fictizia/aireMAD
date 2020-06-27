@@ -1,0 +1,223 @@
+[    
+{
+    "name": "Barrio Salamanca",
+    "id": "P001",
+    "parametros": {
+        "Quenopodiáceas/Amarantáceas": {
+            "medio": 5,
+            "alto": 10,
+            "muy_alto": 15
+        },
+        "Fresno": {
+            "medio": 15,
+            "alto": 30,
+            "muy_alto": 50
+        },
+        "Aligustre": {
+            "medio": 10,
+            "alto": 20,
+            "muy_alto": 30
+        },
+        "Olivo": {
+            "medio": 35,
+            "alto": 70,
+            "muy_alto": 198
+        },
+        "Plantago": {
+            "medio": 21,
+            "alto": 31,
+            "muy_alto": 41
+        },
+        "Plátano de paseo": {
+            "medio": 62,
+            "alto": 214,
+            "muy_alto": 875
+        },
+        "Gramíneas": {
+            "medio": 52,
+            "alto": 82,
+            "muy_alto": 161
+        },
+        "Urticaceae (Ortigas)": {
+            "medio": 10,
+            "alto": 16,
+            "muy_alto": 33
+        },
+        "Aliso": {
+            "medio": 10,
+            "alto": 15,
+            "muy_alto": 20
+        },
+        "Cupresáceas/Taxáceas": {
+            "medio": 111,
+            "alto": 202,
+            "muy_alto": 479
+        }
+    },
+    "mediciones": {
+        "Quenopodiáceas/Amarantáceas": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Fresno": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Aligustre": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Olivo": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Plantago": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Plátano de paseo": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Gramíneas": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Urticaceae (Ortigas)": {
+            "fecha": "2018-12-15Z",
+            "valor": 6,
+            "resumen": "bajo"
+        },
+        "Aliso": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Cupresáceas/Taxáceas": {
+            "fecha": "2018-12-15Z",
+            "valor": 1,
+            "resumen": "bajo"
+        }
+    },
+    "UTM_longitud": 442615,
+    "UTM_latitud": 4476472,
+    "altura": 26
+},
+{
+    "name": "Arganzuela",
+    "id": "P002",
+    "parametros": {
+        "Aliso": {
+            "medio": 10,
+            "alto": 15,
+            "muy_alto": 20
+        },
+        "Cupresáceas/Taxáceas": {
+            "medio": 111,
+            "alto": 202,
+            "muy_alto": 479
+        },
+        "Quenopodiáceas/Amarantáceas": {
+            "medio": 5,
+            "alto": 10,
+            "muy_alto": 15
+        },
+        "Fresno": {
+            "medio": 15,
+            "alto": 30,
+            "muy_alto": 50
+        },
+        "Aligustre": {
+            "medio": 10,
+            "alto": 20,
+            "muy_alto": 30
+        },
+        "Olivo": {
+            "medio": 35,
+            "alto": 70,
+            "muy_alto": 198
+        },
+        "Plantago": {
+            "medio": 21,
+            "alto": 31,
+            "muy_alto": 41
+        },
+        "Plátano de paseo": {
+            "medio": 62,
+            "alto": 214,
+            "muy_alto": 875
+        },
+        "Gramíneas": {
+            "medio": 52,
+            "alto": 82,
+            "muy_alto": 161
+        },
+        "Urticaceae (Ortigas)": {
+            "medio": 10,
+            "alto": 16,
+            "muy_alto": 33
+        }
+    },
+    "mediciones": {
+        "Aliso": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Cupresáceas/Taxáceas": {
+            "fecha": "2018-12-15Z",
+            "valor": 1,
+            "resumen": "bajo"
+        },
+        "Quenopodiáceas/Amarantáceas": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Fresno": {
+            "fecha": "2018-12-15Z",
+            "valor": 1,
+            "resumen": "bajo"
+        },
+        "Aligustre": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Olivo": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Plantago": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Plátano de paseo": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Gramíneas": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        },
+        "Urticaceae (Ortigas)": {
+            "fecha": "2018-12-15Z",
+            "valor": 0,
+            "resumen": "bajo"
+        }
+    },
+    "UTM_longitud": 441096,
+    "UTM_latitud": 4472862,
+    "altura": 10
+}]
