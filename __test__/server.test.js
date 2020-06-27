@@ -13,10 +13,8 @@ afterAll(() => {
   resetDB()
 })
 
-const stationId = 'P001'
-
 describe('GET /api/v1/pollution/{stationId} endpoint', () => {
-  test(`Should respond with pollution for specific station: ${stationId}`, () => request(app)
+  test(`Should respond with pollution for specific station: ${fixtures.pollution.validId}`, () => request(app)
     .get(`/api/v1/pollution/${fixtures.pollution.validId}`)
     .expect(200)
     .expect('Content-Type', /json/)
