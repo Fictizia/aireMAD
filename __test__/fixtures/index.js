@@ -37,6 +37,6 @@ module.exports = {
     detail: flu
   },
   sources: {
-    pollen: readFileSync(join(__dirname, './sources_samples/pollution.txt'), 'utf8')
+    pollution: readFileSync(join(__dirname, './sources_samples/pollution.txt'), 'utf8')
   }
 }
