@@ -4,6 +4,8 @@ const acustic = require('./samples/acustic.json')
 const pollen = require('./samples/pollen.json')
 const weather = require('./samples/weather.json')
 const flu = require('./samples/flu.json')
+const { readFileSync } = require('fs')
+const { join } = require('path')
 
 module.exports = {
   station: {
@@ -33,5 +35,8 @@ module.exports = {
   },
   flu: {
     detail: flu
+  },
+  sources: {
+    pollen: readFileSync(join(__dirname, './sources_samples/pollution.txt'), 'utf8')
   }
 }
