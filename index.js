@@ -1,4 +1,5 @@
 require('dotenv').config()
+// const { pollution } = require('./tasks')
 const app = require('./services/server')
 const port = process.env.PORT
 /* Just for testing with seeds
