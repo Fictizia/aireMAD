@@ -1,0 +1,98 @@
+{
+    "10": {
+        "parameter": "Partículas en suspensión",
+        "abrebiation": "PS10"
+    },
+    "12": {
+        "parameter": "Óxidos de Nitrógeno totales",
+        "abrebiation": "NOX"
+    },
+    "14": {
+        "parameter": "Ozono",
+        "abrebiation": "O3"
+    },
+    "20": {
+        "parameter": "Tolueno",
+        "abrebiation": "TOL"
+    },
+    "30": {
+        "parameter": "Benceno",
+        "abrebiation": "BEN"
+    },
+    "35": {
+        "parameter": "Etilbenceno",
+        "abrebiation": "EBE"
+    },
+    "42": {
+        "parameter": "Hidrocarburos Totales",
+        "abrebiation": "HC"
+    },
+    "43": {
+        "parameter": "Metano",
+        "abrebiation": "CH4"
+    },
+    "44": {
+        "parameter": "Hidrocarburos No Metánicos",
+        "abrebiation": "NMH"
+    },
+    "80": {
+        "parameter": "Radiación Ultravioleta",
+        "abrebiation": "UV"
+    },
+    "81": {
+        "parameter": "Velocidad del Viento",
+        "abrebiation": "VV"
+    },
+    "82": {
+        "parameter": "Dirección del Viento",
+        "abrebiation": "DD"
+    },
+    "83": {
+        "parameter": "Temperatura Media",
+        "abrebiation": "TMP"
+    },
+    "84": {
+        "parameter": "Temperatura Máxima",
+        "abrebiation": "TMX"
+    },
+    "85": {
+        "parameter": "Temperatura Mínima",
+        "abrebiation": "TMI"
+    },
+    "86": {
+        "parameter": "Humedad Relativa",
+        "abrebiation": "HR"
+    },
+    "87": {
+        "parameter": "Presión Barométrica",
+        "abrebiation": "PRB"
+    },
+    "88": {
+        "parameter": "Radiación Solar",
+        "abrebiation": "RS"
+    },
+    "89": {
+        "parameter": "Precipitación",
+        "abrebiation": "LL"
+    },
+    "01": {
+        "parameter": "Dióxido de Azufre",
+        "abrebiation": "S02"
+    },
+    "06": {
+        "parameter": "Monóxido de Cabono",
+        "abrebiation": "CO"
+    },
+    "07": {
+        "parameter": "Monóxido de Nitrógeno",
+        "abrebiation": "NO"
+    },
+    "08": {
+        "parameter": "Dióxido de Nitrógeno",
+        "abrebiation": "NO2"
+    },
+    "09": {
+        "parameter": "Partículas en suspensión",
+        "abrebiation": "PS25"
+    }
+}
