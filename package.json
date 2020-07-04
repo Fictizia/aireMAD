@@ -4,9 +4,9 @@
   "description": "AireMad",
   "main": "index.js",
   "scripts": {
-    "test": "jest  --verbose ./**/**/*.test.js",
-    "test:coverage": "jest --verbose ./**/**/*.test.js --coverage",
-    "test:watch": "jest --verbose ./**/**/*.test.js --watchAll",
+    "test": "jest  --verbose",
+    "test:coverage": "jest --verbose  --coverage",
+    "test:watch": "jest --verbose  --watchAll",
     "lint": "standard",
     "lint:fix": "standard --fix",
     "dev": "nodemon ./index.js"
